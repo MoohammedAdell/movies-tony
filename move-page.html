@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="Images/fav-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Name TONY</title>
+  </head>
+  <body>
+    <!-- NavBar start -->
+    <nav class="navigation">
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+
+      <!-- logoooo -->
+      <a href="index.html" class="logo"
+        ><strong
+          style="
+            text-transform: uppercase;
+            color: #bf5a5a4e;
+            font-family: Monoton, sans-serif;
+          "
+          >Tony</strong
+        >
+        Movies<span>.hd</span>
+      </a>
+
+      <!-- menuuuu -->
+      <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Genre</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <!-- search box -->
+      <!-- input -->
+      <form action="" class="search-box">
+        <input
+          type="text"
+          name="search"
+          placeholder="Search Movie"
+          class="search-input"
+          required
+        />
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </nav>
+    <!-- NavBar end -->
+
+    <!-- movie banner -->
+    <section class="movie-banner">
+      <!-- imgg----- -->
+      <div class="m-banner-img">
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/cover.jpg"
+          alt=""
+        />
+      </div>
+
+      <!-- content -->
+      <div class="banner-content">
+        <div class="title-container">
+          <!-- title top***************** -->
+          <div class="title-top">
+            <!-- titlw -->
+            <div class="movie-title">
+              <h1>Pirates of the Caribben Salazar's Revenge</h1>
+            </div>
+            <!-- more about movie -->
+            <div class="more-about-movie">
+              <span class="quality">FULL HD</span>
+              <div class="rating">
+                8.2 <img src="Images/IMDb-icon.png" alt="1mbd" />
+              </div>
+              <span>8 August 2024</span>
+              <span>53min</span>
+            </div>
+            <!-- language-->
+            <div class="language">
+              <span>English</span>
+            </div>
+          </div>
+
+          <!-- title bottom -->
+          <div class="title-bottom">
+            <!-- categoru-------- -->
+            <div class="category">
+              <strong>Category</strong><br />
+              <a href="#"> Horror</a>,<a href="#">Mistery</a>,<a href="#"
+                >Thriller</a
+              >
+            </div>
+            <!-- trailer btn -->
+            <a
+              href="https://youtu.be/27mB8verLK8?si=Yj6c-UN-54M1tyGH"
+              class="watch-btn"
+              >Watch Trailer</a
+            >
+          </div>
+        </div>
+
+        <!-- play-btn ************************-->
+        <div class="play-btn-container">
+          <div class="play-btn">
+            <a href="javascript:void">
+              <i class="fas fa-play"></i>
+            </a>
+          </div>
+        </div>
+        <!-- video -->
+        <div id="play" class="play">
+          <!-- close btn -->
+          <a href="javascript:void" class="close-movie">
+            <i class="fas fa-times"></i>
+          </a>
+          <div class="play-movie">
+            <video id="m-video" controls>
+              <source
+                src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+      </div>
+      <!-- title content -***************-->
+    </section>
+
+    <!-- details -->
+    <section class="movie-details">
+      <strong>Pirates of the Caribean Salazar's Revenge</strong>
+      <p>
+        This random text includes a variety of scenes and descriptions,
+        showcasing different elements and providing a mix of imagery.
+      </p>
+    </section>
+
+    <!-- screnn shots -->
+    <section class="screenshots">
+      <strong>ScreenShots</strong>
+      <!-- screenshots container -->
+      <div class="screen-s-container">
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-1.jpg"
+          alt=""
+        />
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-2.jpg"
+          alt=""
+        />
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-3.jpg"
+          alt=""
+        />
+        <img
+          src="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/screenshot-4.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- download -->
+    <section class="download0-movie">
+      <!-- container -->
+      <div class="download-container">
+        <!-- box -->
+        <div class="download-box">
+          <span><i class="fas fa-server"></i> Server 1</span>
+          <span>English</span>
+          <span>480p</span>
+          <a
+            href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+            download=""
+            >Download</a
+          >
+        </div>
+        <!-- box -->
+        <div class="download-box">
+          <span><i class="fas fa-server"></i> Server 2</span>
+          <span>English</span>
+          <span>720p</span>
+          <a
+            href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+            download=""
+            >Download</a
+          >
+        </div>
+        <!-- box -->
+        <div class="download-box">
+          <span><i class="fas fa-server"></i> Server 3</span>
+          <span>English</span>
+          <span>1080p</span>
+          <a
+            href="Movie-Data/Pirates-of-the-Caribbean-Salazar's-Revenge/Movie.mp4"
+            download=""
+            >Download</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="index.html" class="logo"
+        ><strong
+          style="
+            text-transform: uppercase;
+            color: #bf5a5a4e;
+            font-family: Monoton, sans-serif;
+          "
+          >Tony</strong
+        >
+        Movies<span>.hd</span>
+      </a>
+
+      <!-- copyright -->
+      <span class="copyright"> Copyright 2024 - GoingToInternet </span>
+    </footer>
+
+    <!-- <script src="main.js"></script> -->
+    <script src="js/jquery.js"></script>
+    <script>
+      //   let up = document.getElementById("up");
+
+      //   window.onscroll = function () {
+      //     if (window.scrollY >= 300) {
+      //       up.style.display = "block";
+      //     } else {
+      //       up.style.display = "none";
+      //     }
+      //   };
+      //   up.onclick = function () {
+      //     window.scrollTo({ top: 0, behavior: "smooth" });
+      //   };
+
+      $(window).scroll(function () {
+        if ($(document).scrollTop() > 20) {
+          $(".navigation").addClass("fix-icon");
+        } else {
+          $(".navigation").removeClass("fix-icon");
+        }
+      });
+
+      //   popup opEN
+
+      $(document).on("click", ".play-btn a", function () {
+        $("#play").addClass("on");
+      });
+      // //   //   popup close
+      $(document).on("click", ".close-movie", function () {
+        $(".play").removeClass("on");
+      });
+      //   //   popup opEN
+      $(".play-btn a").click(function () {
+        $("#m-video")[0].play();
+      });
+      $(".close-movie").click(function () {
+        $("#m-video")[0].pause();
+      });
+    </script>
+  </body>
+</html>
